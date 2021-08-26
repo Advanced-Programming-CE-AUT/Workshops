@@ -1,15 +1,12 @@
 package com.aut;
 
-/**
- * The type Aut math.
- */
 public class AUTMath {
     /**
      * gets two integers and returns their sum.
      *
      * @param num1 the num 1
      * @param num2 the num 2
-     * @return the int
+     * @return int
      */
     public static int sum(int num1, int num2) {
         return num1+num2;
@@ -20,7 +17,7 @@ public class AUTMath {
      *
      * @param num1 the num 1
      * @param num2 the num 2
-     * @return the int
+     * @return int
      */
     public static int subtract(int num1, int num2) {
         return num1 - num2;
@@ -31,7 +28,7 @@ public class AUTMath {
      *
      * @param num1 the num 1
      * @param num2 the num 2
-     * @return the int
+     * @return int
      */
     public static int multiply(int num1, int num2) {
         return num1 * num2;
@@ -42,7 +39,7 @@ public class AUTMath {
      *
      * @param num1 the num 1
      * @param num2 the num 2
-     * @return the int
+     * @return int
      */
     public static int divide(int num1, int num2) {
         return num1 / num2;
@@ -52,7 +49,7 @@ public class AUTMath {
      * gets a number and returns its factorial.
      *
      * @param number the number
-     * @return the int
+     * @return int
      */
     public static int factorial(int number) {
         int result = 0;
@@ -68,7 +65,7 @@ public class AUTMath {
      *
      * @param base  the base
      * @param power the power
-     * @return the int
+     * @return int
      */
     public static int pow(int base, int power) {
         int result = 1;
@@ -84,7 +81,7 @@ public class AUTMath {
      * gets an index and calculates the fibonacci sequence at that exact index recursively.
      *
      * @param index the index
-     * @return the int
+     * @return int
      */
     public static int fib(int index) {
         if (index == 0 || index == 1) {
